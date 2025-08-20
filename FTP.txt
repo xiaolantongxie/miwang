@@ -1,0 +1,4 @@
+FTP默认目录的路径为/var/ftp可使用root账号在此目录下上传匿名登录即可下载的文件
+
+usermod -s /sbin/nologin test //限定用户test不能telnet、ssh只能ftp
+usermod -s /sbin/bash test //用户test恢复正常
